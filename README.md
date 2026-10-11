@@ -21,7 +21,7 @@ This is the pattern described in [OWASP CICD-SEC-4](https://owasp.org/www-projec
 
 | Name | Value |
 |---|---|
-| `DUMMY_CLOUD_KEY` | any placeholder string, e.g. `dummy-cloud-key-not-real-12345` |
+| `DUMMY_CLOUD_KEY1` | any placeholder string, e.g. `dummy-cloud-key-not-real-12345` |
 
 Never a real credential — it only proves the attack path can reach a secret.
 

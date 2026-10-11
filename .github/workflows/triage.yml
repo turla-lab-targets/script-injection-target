@@ -26,7 +26,7 @@ jobs:
       - name: Greet the issue author (VULNERABLE — unsanitized title in run:)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          DUMMY_CLOUD_KEY: ${{ secrets.DUMMY_CLOUD_KEY }}
+          DUMMY_CLOUD_KEY: ${{ secrets.DUMMY_CLOUD_KEY1 }}
         run: |
           echo "Thanks for opening: ${{ github.event.issue.title }}"
           echo "Triage complete."
